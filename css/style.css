@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+h1{
+	text-align: center;
+	padding-bottom: 20px;
+}
+#operator{
+	height: 100vh;
+	border: 5px solid blueviolet;
+	padding: 20px 0;
+	background-color: darkgray;
+}
+#operator .operator_item{
+	width: cale(25% - 30px);
+	padding: 20px 15px;
+	margin: 0 20px;
+}
+.one{
+	background-color: burlywood;
+	border: 1px solid lightcoral;
+}
+.two{
+	background-color: coral;
+	border: 1px solid black;
+}

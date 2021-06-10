@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>java script operator</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="operator">
+		<div class="container">
+			<h1>JAVASCRIPT OPRATOR</h1>
+			<div class="row">
+				<div class="operator_item one">
+					<h2>Arithmetic operator</h2>
+					<script>
+						var br = "<br>"
+						/*(-)plus*/
+						var a1 = 5;
+						var a2 = 5;
+						document.write(a1 + a2 + br);
+						/*(-)munis*/
+						var b1 = 30;
+						var b2 = 10;
+						document.write(b1 - b2 + br);
+						/*(/)divider*/
+						var c1 = 500;
+						var c2 = 500;
+						document.write(c1 / c2 + br);
+						/*(*)multiplication*/
+						var d1 = 243566;
+						var d2 = 56467;
+						document.write(d1 * d2 + br);
+						/*(%)modulus*/
+						var e1 = 5;
+						var e2 = 2;
+						document.write(e1 % e2 + br);
+						/*(++)increment*/
+						/*post*/
+						var f1 = 30;
+						document.write(f1++ + br);
+						document.write(f1 + br);
+						/*pre*/
+						var f2 = 22;
+						document.write(++f2 + br);
+						document.write(f2 + br);
+						/*(--)decriment*/
+						/*post*/
+						var f3 = 40;
+						document.write(f3-- + br);
+						document.write(f3 + br);
+						/*pre*/
+						var f4 = 55;
+						document.write(--f4 + br);
+						document.write(f4 + br);
+						/*(**)exponention*/
+						var num = 25;
+						var pow = 3;
+						document.write(num ** pow + br);
+						var num = 4;
+						var pow = 2;
+						document.write(num ** pow + br);
+					</script>
+				</div>
+				<div class="operator_item two">
+					<h2>Assignment operator</h2>
+					<script>
+						/*(=)assignment*/
+						var g1 = 10;
+						document.write(g1);
+						document.write("<br>");
+						/*(+=)plus assignment*/
+						var g2 = 4;
+						document.write(g2 += 5);
+						document.write("<br>");
+						/*(-=)munis assignment*/
+						var g3 = 10;
+						document.write(g3 -= 5);
+						document.write("<br>");
+						/*(/=)divider assignment*/
+						var g4 = 40;
+						document.write(g4 /= 20);
+						document.write("<br>");
+						/*(*=)multiplication assignment*/
+						var g5 = 5;
+						document.write(g5 *= 5);
+						document.write("<br>");
+						/*(**=)exponention assignment*/
+						var g6 = 5;
+						document.write(g6 **= 6);
+						document.write("<br>");
+						/*(%=)modulus assignment*/
+						var g7 = 10;
+						document.write(g7 %= 4);
+						document.write("<br>");
+					</script>
+				</div>
+				<div class="operator_item one">
+					<h2>Logical operator</h2>
+					<script>
+						/*(&&)And operator*/
+						/*(true)*/
+						var h1 = 10;
+						var h2 = 10;
+						var h3 = 10;
+						var h4 = 10;
+						document.write(h1 == h2 && h3 == h4);
+						document.write("<br>")
+						/*(true)*/
+						var h5 = 10;
+						var h6 = 5;
+						var h7 = 10;
+						var h8 = 10;
+						document.write(h5 == h6 && h7 == h8);
+						document.write("<br>");
+						/*(||)Or operator*/
+						var h9 = 4;
+						var h10 = 4;
+						var h11 = 5;
+						var h12 = 3;
+						document.write(h9 == h10 || h11 == h12);
+						document.write("<br>");
+						/*(!)Not operator*/
+						var h13 = 5;
+						var h14 = 5;
+						document.write(h13 == h14);
+						document.write("<br>");
+						document.write(!(h13 = h14));
+					</script>
+				</div>
+				<div class="operator_item two">
+					<h2>Comparison operator</h2>
+					<script>
+						/*(==)equal to*/
+						/*(true)*/
+						var i1 = 10;
+						var i2 = 10;
+						document.write(i1 == i2);
+						document.write("<br>")
+						/*(false)*/
+						var i3 = 10;
+						var i4 = 11;
+						document.write(i3 == i4);
+						document.write("<br>");
+						/*(===)equal value*/
+						/*(true)*/
+						var i5 = 10;
+						var i6 = 10;
+						document.write(i5 === i6);
+						document.write("<br>")
+						/*(false)*/
+						var i7 = 10;
+						var i8 = "10";
+						document.write(i7 === i8);
+						document.write("<br>");
+						/*(!=)not equal to*/
+						/*(true)*/
+						var i9 = 10;
+						var i10 = 5;
+						document.write(i9 != i10);
+						document.write("<br>");
+						/*(false)*/
+						var i11 = 10;
+						var i12 = 10;
+						document.write(i1 != i12);
+						document.write("<br>");
+						/*(!==)not equal value*/
+						/*(true)*/
+						var i13 = 10;
+						var i14 = 5;
+						document.write(i13 !== i14);
+						document.write("<br>");
+						/*(false)*/
+						var i15 = 11;
+						var i16 = "10";
+						document.write(i15 !== i16);
+						document.write("<br>");
+						/*(<)less than*/
+						/*(true)*/
+						var i17 = 10;
+						var i18 = 12;
+						document.write(i17 < i18);
+						document.write("<br>");
+						/*(false)*/
+						var i19 = 115;
+						var i20 = 12;
+						document.write(i19 < i20);
+						document.write("<br>");
+						/*(>)greater than*/
+						/*(true)*/
+						var i21 = 10;
+						var i22 = 6;
+						document.write(i21 > i22);
+						document.write("<br>");
+						/*(false)*/
+						var i23 = 11;
+						var i24 = 12;
+						document.write(i23 > i24);
+						document.write("<br>");
+						/*(<=)greater than*/
+						/*(false)*/
+						var i25 = 7;
+						var i26 = 6;
+						document.write(i25 <= i26);
+						document.write("<br>");
+						/*(true)*/
+						var i27 = 11;
+						var i28 = 11;
+						document.write(i27 <= i28);
+						document.write("<br>");
+						/*(>=)less than*/
+						/*(true)*/
+						var i29 = 7;
+						var i30 = 7;
+						document.write(i29 >= i30);
+						document.write("<br>");
+						/*(false)*/
+						var i31 = 11;
+						var i32 = 12;
+						document.write(i31 >= i32);
+						document.write("<br>");
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
